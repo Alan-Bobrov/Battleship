@@ -336,7 +336,7 @@ def play() -> None:
                 break
         if br:
             break
-While True:
+while True:
     play()
     end = input("ou will be play more? (Yes or No)").lower()
     if end == "yes":
