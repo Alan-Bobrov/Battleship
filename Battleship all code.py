@@ -343,5 +343,7 @@ While True:
         pass
     elif end == "no":
         print("Okay, goodbye!")
+        break
     else:
         print(" I will consider it as no")
+        break
