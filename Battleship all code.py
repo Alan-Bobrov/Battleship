@@ -338,7 +338,7 @@ def play() -> None:
             break
 while True:
     play()
-    end = input("ou will be play more? (Yes or No)").lower()
+    end = input("You will be play more? (Yes or No)").lower()
     if end == "yes":
         pass
     elif end == "no":
