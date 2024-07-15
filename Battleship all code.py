@@ -336,5 +336,12 @@ def play() -> None:
                 break
         if br:
             break
-
-play()
+While True:
+    play()
+    end = input("ou will be play more? (Yes or No)").lower()
+    if end == "yes":
+        pass
+    elif end == "no":
+        print("Okay, goodbye!")
+    else:
+        print(" I will consider it as no")
