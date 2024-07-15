@@ -1,6 +1,6 @@
 from Another_Functions import play
 
-While True:
+while True:
     play()
     end = input("ou will be play more? (Yes or No)").lower()
     if end == "yes":
