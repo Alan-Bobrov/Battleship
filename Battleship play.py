@@ -2,12 +2,8 @@ from Another_Functions import play
 
 while True:
     play()
-    end = input("You will be play more? (Yes or No)").lower()
+    end = input("You will be play more? (Yes or No, if you write somethihg another a will consider it as No):").lower()
     if end == "yes":
         pass
-    elif end == "no":
-        print("Okay, goodbye!")
-        break
     else:
-        print(" I will consider it as no")
         break
